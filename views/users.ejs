@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>TheNewBoston</title>
+</head>
+<style>
+body {
+  text-align: center;
+  font-style: normal;
+  font-family: helvetica;
+}
+li {
+  text-align: center;
+  list-style: none;
+}
+</style>
+<body>
+  <% include template/masterpage.ejs %></br></br>
+  <p>New Boston Site Users are : </p>
+  <ul>
+
+<% for(var i=0; i < rs.length; i++) { var user = rs[i]; %>
+
+     <li><a href="/edit/<%= user._id%>"><%= rs[i].name %></a></li>
+
+<% } %>
+</ul>
+</body>
+</html>

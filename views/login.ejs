@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>TheNewBoston</title>
+</head>
+<style>
+body {
+  text-align: center;
+  font-style: normal;
+  font-family: helvetica;
+}
+</style>
+<body>
+  <% include template/masterpage.ejs %></br></br>
+  <form method="post" action="/login">
+  <label for="User Name">User Name</label>
+  <input type="text" placeholder="Enter username" name="name"></br></br>
+  <label for="Password">Password</label>
+  <input type="text" placeholder="Enter Password" name="psd"></br></br>
+  <button type="submit">Login</button>
+</form>
+</body>
+</html>

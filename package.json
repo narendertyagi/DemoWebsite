@@ -1,0 +1,19 @@
+{
+  "name": "samplewebsite",
+  "version": "1.0.0",
+  "description": "A simple Website with login module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Narender",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7"
+  }
+}
